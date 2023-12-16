@@ -9,8 +9,6 @@
     padding: none;
     background-color: none;
 }
-
-
 img{
     height: 150px;
     width: 150px;
@@ -29,17 +27,9 @@ img{
     outline-color: peachpuff ;
     background-color: white;
 }
-@media (max-width: 768px) {
-    .head,
-    .tail {
-        margin-left: 5%; /* Adjust as needed for smaller screens */
+@media screen and (max-width:1000px){
+    .buttons{
+        margin:auto 4  px;
+        max-width:90%;
+        }
     }
-}
-
-/* Media Query for Even Smaller Screens */
-@media (max-width: 480px) {
-    .head,
-    .tail {
-        margin-left: 2%; /* Adjust as needed for even smaller screens */
-    }
-}
