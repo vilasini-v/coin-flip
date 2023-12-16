@@ -1,0 +1,31 @@
+*{
+    background-color: blanchedalmond;
+}
+.text{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+    padding: none;
+    background-color: none;
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+}
+.head{
+    margin-left: 550px;
+    border: none;
+    outline: auto;
+    outline-color: peachpuff ;
+    background-color: white;
+}
+.tail{
+    margin-left: 50px;
+    border: none;
+    outline: auto;
+    outline-color: peachpuff ;
+    background-color: white;
+}
