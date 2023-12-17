@@ -33,3 +33,9 @@ img{
         max-width:90%;
         }
     }
+.reset{
+    margin-top: 20px;
+    margin-left: 725px;
+    padding: 5px;
+    background-color: aliceblue;
+}

@@ -1,17 +1,30 @@
-var num=Math.random()*100;
+const score={
+    wins: 0,
+    loses: 0
+};
 function heads(){
+    var num=Math.random()*100;
     if(num<=50){
-        alert("CONGRATS, YOU BOTH CHOSE HEADS!!");
+        score.wins++;
+        alert('You picked heads, computer picked heads, you won \nWins: ' + score.wins + ' Losses: ' + score.loses);
     }else{
-        alert("computer has chosen tails, you've lost :(");
+        score.loses++;
+        alert('You picked heads, computer picked tails, you lost \nWins: ' + score.wins + ' Losses: ' + score.loses);
     }
-    location.reload();
 }
 function tails(){
+    var num=Math.random()*100;
     if(num>50){
-        alert("CONGRATS, YOU BOTH CHOSE TAILS!!");
+        score.wins++;
+        alert('You picked tails, computer picked tails, you won \nWins: ' + score.wins + ' Losses: ' + score.loses);
     }else{
-        alert("computer has chosen heads, you've lost :(");
+        score.loses++;
+        alert('You picked tails, computer picked heads, you lost \nWins: ' + score.wins + ' Losses: ' + score.loses);
     }
-    location.reload();
+}
+
+function reset(){
+    score.wins = 0;
+    score.loses = 0;
+    alert('Score has been reset, Wins: ' + score.wins + ' Losses: ' + score.loses );
 }
