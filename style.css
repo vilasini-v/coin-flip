@@ -8,6 +8,7 @@
     margin-top: 75px;
     padding: none;
     background-color: none;
+    line-height: 20px;
 }
 img{
     height: 150px;
@@ -38,4 +39,12 @@ img{
     margin-left: 725px;
     padding: 5px;
     background-color: aliceblue;
+}
+.message{
+    text-align: center;
+    font-size: 20px;
+}
+.score{
+    text-align: center;
+    font-size: 20px;
 }
