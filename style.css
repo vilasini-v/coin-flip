@@ -1,5 +1,6 @@
 *{
     background-color: blanchedalmond;
+    align-items: center;
 }
 .text{
     font-size: 30px;
@@ -14,32 +15,55 @@ img{
     height: 150px;
     width: 150px;
 }
+.buttons{
+    display: flex;
+    justify-content: center;    
+}
 .head{
-    margin-left: 39%;
     border: none;
     outline: auto;
     outline-color: peachpuff ;
     background-color: white;
 }
 .tail{
-    margin-left: 2%;
+    margin-left: 30px;
     border: none;
     outline: auto;
     outline-color: peachpuff ;
     background-color: white;
 }
-@media screen and (max-width:1000px){
-    .buttons{
-        margin:auto 4  px;
-        max-width:90%;
-        }
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 1.5rem; 
     }
-.reset{
-    margin-top: 20px;
-    margin-left: 725px;
-    padding: 5px;
-    background-color: aliceblue;
+
+    .buttons {
+        margin: auto; 
+        max-width: 90%;
+    }
+
+    img {
+        height: 100px; 
+        width: 100px;
+    }
+
+    .reset-container {
+        text-align: center;
+        margin-top: 20px; 
+    }
+
+    .reset {
+        padding: 10px; 
+        font-size: 1.5rem; 
+    }
 }
+
+
+    .reset-container {
+        text-align: center; 
+        margin-top: 20px; 
+    }
+    
 .message{
     text-align: center;
     font-size: 20px;
